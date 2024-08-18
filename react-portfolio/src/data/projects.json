@@ -1,0 +1,18 @@
+[
+  {
+    "title": "My Portfolio",
+    "imageSrc": "projects/ss1.png",
+    "description": "Welcome to my portfolio! This project showcases my skills and learning journey in modern web development technologies.",
+    "skills": ["React", "Vite", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Movie Recommender System",
+    "imageSrc": "projects/ss2.png",
+    "description": " This project leverages Python and Jupyter Notebook to build an intelligent system that recommends movies based on user preferences.",
+    "skills": ["Python", "Jupyter Notebook"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]

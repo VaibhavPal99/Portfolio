@@ -1,0 +1,103 @@
+@import "../../vars.css";
+
+a{
+  color: var(--color-text);
+}
+
+.container {
+  color: var(--color-text);
+  margin-top: 79px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 14px;
+}
+
+.profileList {
+  list-style: none;
+  padding: 0;
+}
+
+.profileItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 17px;
+  background: #19376d;
+  background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
+  border-radius: 10px;
+  padding: 24px;
+  margin-bottom: 20px;
+}
+
+.profileIcon {
+  width: 50px;
+  height: 50px;
+}
+
+
+.profileText {
+  font-family: var(--font-roboto);
+}
+
+.profileText h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.profileText p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.profileText a {
+  color: var(--color-secondary);
+  text-decoration: none;
+}
+
+.profileText a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 830px) {
+  .content {
+    align-items: center;
+  }
+
+  .profileList {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profileItem {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profileIcon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .profileText h3 {
+    font-size: 25px;
+  }
+
+  .profileText p {
+    font-size: 18px;
+  }
+}
